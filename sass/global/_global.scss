@@ -1,0 +1,83 @@
+// Global Styles
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+//colors
+.colorWhites {
+  $background: #d1deec !global;
+  $foreground: #f1f3f5 !global;
+  $white: #fff !global;
+  $grayTwo: #9f8e8e !global;
+  $gray: #6e6e6e !global;
+  $black: #000 !global;
+  $shadow: #76767663 !global;
+  $border: #cfcfcf !global;
+  $red: #be0202 !global;
+  $icedBlue: #1877f2 !global;
+  $hoverIced: #115cbd !global;
+
+}
+
+$boxShadow: 0 2px 5px 0 $shadow;
+
+
+
+
+// dark mode colors
+.colorDarks {
+  $background: #222230 !global;
+  $foreground: #42435c !global;
+  $white: #2b2c44 !global;
+  $gray: #d5dfd5 !global;
+  $black: #eeecff !global;
+  $shadow: #00000063 !global;
+  $border: #3f4172 !global;
+}
+
+.darkTheme.button-Active span {
+  margin-left: 16px;
+}
+
+
+// .darkTheme.button-Active span {
+//   margin-left: 16px;
+// }
+
+
+// dark mode colors
+
+
+body {
+  background-color: $background;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #3a78ffec;
+}
+
+button:focus,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+  color: #000;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
